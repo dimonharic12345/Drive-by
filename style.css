@@ -1,13 +1,14 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: #55c4e6;
 }
 
 .container {
-    width: 300px;
+    display: flex;
+    width: 500px;
     margin: 100px auto;
     padding: 20px;
-    background-color: #fff;
+    background-color: #52b7df;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
 }
@@ -23,13 +24,14 @@ label {
 
 input[type="text"],
 input[type="password"] {
-    width: 100%;
+    width: 70%;
     padding: 8px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
 }
 
 button {
+    
     width: 100%;
     padding: 10px;
     background-color: #007BFF;
@@ -40,4 +42,10 @@ button {
 
 button:hover {
     background-color: #0056b3;
+}
+
+.text{
+    width: 200px;
+    display: flex;
+    align-self: center;
 }
